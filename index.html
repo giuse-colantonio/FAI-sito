@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/color-modes.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>F.A.I.</title>
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+
+   
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta name="theme-color" content="#712cf9">
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+
+   
+    <!-- Custom styles for this template -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg" style="background-color: #93c572; border-bottom: 2px solid #e65125;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Immagini/Logo.png" alt="Logo" width="120px" class="d-inline-block align-text-top">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="storia.html">Storia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventi.html">Eventi</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="beni.html">Beni</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="volontari.html">Unisciti a noi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contatti.html">Contattaci</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<br>
+<main>
+  <div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Immagini/acqua.jpg" class="d-block w-100 h-50" alt="..." style="border: 4px solid #e65125; border-radius: 20px;">
+      </div>
+      <div class="carousel-item">
+        <img src="Immagini/monesteroli-liguria.jpg" class="d-block w-100" alt="..." style="border: 4px solid #e65125; border-radius: 20px;">
+      </div>
+      <div class="carousel-item">
+        <img src="Immagini/san_fruttuoso.jpg" class="d-block w-100" alt="..." style="border: 4px solid #e65125; border-radius: 20px;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+   
+    <div class="container-xxl">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+      <div class="container-xxl"> 
+        
+        <div class="row featurette">
+            <div class="col-md-12" style="background-color: #e65125; color: white; border-radius: 20px;"> 
+              <center><h1>Chi Siamo</h1></center>           
+                <p class="lead">Dal 1975, difendiamo la cultura e l'ambiente, il patrimonio storico e paesaggistico, al fine di valorizzarlo e sensibilizzare le persone alla vigilanza sui bene del territorio, in conformità con l'articolo 9 della costituzione, che si è evoluto con noi, al punto che il 8 Febbaraio del 2022 è stato cambiato per tutelare ancora di più l'ambiente. <br>
+                  <i>"La Repubblica promuove lo sviluppo della cultura e la ricerca scientifica e tecnica. <br> Tutela il paesaggio e il patrimonio storico e artistico della Nazione. <br> Tutela l’ambiente, la biodiversità e gli ecosistemi, anche nell’interesse delle future generazioni. <br> La legge dello Stato disciplina i modi e le forme di tutela degli animali."</i> <br><br>
+                  Vincitori della Medaglia d'oro ai benemeriti della cultura e dell'arte nel 1988 e dello European Heritage Awards del 2016, noi del FAI continuiamo ad acquisire, tutelare e restaurare i beni presenti sul territorio, perché tutti possano viverli. <br> </div>
+        </div>
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: #e65125;">Castello della Manta<span class="text-body-secondary"> - Storie e miracoli della fontana della giovinezza nel Marchesato di Saluzzo</span></h2>
+          <p class="lead">Nata nel XIII secolo come avamposto militare, la roccaforte subì un’importante trasformazione nel Quattrocento grazie al colto e illuminato Valerano, signore e reggente del Marchesato di Saluzzo, che la trasformò in una fastosa dimora di famiglia in concomitanza con l’istituzione del feudo della Manta. Fu lui a volere arricchire la Sala Baronale con i bellissimi affreschi che oggi costituiscono testimonianze uniche della cultura cavalleresca del tempo. Sulla parete sud, il mito dell’eterna giovinezza, ispirato a un romanzo cavalleresco, il "Roman de Fauvel", è raffigurato dalla fontana della giovinezza, sormontata dal dio Amore.
+			<br><br>
+            Sul lato opposto della sala, vegliano nove prodi eroi e nove eroine dell’antichità classica che, in abiti quattrocenteschi, raffigurano gli ideali cavallereschi delle virtù militari e morali. Intorno alla metà del XVI secolo, il complesso quattrocentesco fu oggetto di nuove trasformazioni e a questo periodo risale il Salone delle Grottesche, caratterizzato da uno splendido soffitto decorato con dipinti e stucchi di chiara impronta manierista, ispirati a quelli delle Logge di Raffaello in Vaticano.</p>
+        </div>
+        <div class="col-md-1 order-md-1">
+          <img src="Immagini/castello-della-manta.jpg" alt="" style="border: 4px solid #e65125; border-radius: 20px;">
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: #e65125;">Castello e Parco di Masino<span class="text-body-secondary"> - Il castello millenario nel cuore del Canavese</span></h2>
+          <p class="lead">Da oltre mille anni, il Castello di Masino domina la vasta piana del Canavese da un’altura che è parte della suggestiva barriera morenica della Serra di Ivrea: un paesaggio intatto e infinito, tra le più ampie e meglio conservate formazioni geologiche di origine gaciale d’Europa. Questa posizione strategica costò al maniero frequenti contese, ma il nobile casato dei Valperga, che vantava una discendenza da Arduino di Ivrea, re d’Italia nel 1002, riuscì a conquistarne il possesso per più di nove secoli.
+			<br><br>
+            Nel tempo i Valperga convertirono il Castello da presidio fortificato a residenza aristocratica e dimora di villeggiatura. Un passato glorioso, che ancora si respira attraversando i saloni affrescati e arredati con sfarzo, le camere per gli ambasciatori, gli appartamenti privati, i salotti, le terrazze panoramiche. Gli ambienti dedicati alla celebrazione del sapere, come la preziosa biblioteca che conserva più di 25mila volumi antichi, sono un raffinato sfoggio di cultura sei e settecentesca . Particolare importanza rivestono gli spazi verdi, articolati su più livelli: dal giardino formale all’italiana e alla francese, all’affascinante parco “romantico” all’inglese, alle terrazze panoramiche, al secondo labirinto più grande d’Italia, attestato già nel XVII secolo e ricostruito dal FAI sulla base di antichi documenti.</div>
+        <div class="col-md-1 order-md-1">
+          <img src="Immagini/castello-e-parco-di-masino.jpg" alt="" style="border: 4px solid #e65125; border-radius: 20px;">
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: #e65125;">Villa del Balbianello<span class="text-body-secondary"> - Cimeli di imprese e avventure, custoditi in uno scrigno proteso sul lago di Como</span></h2>
+          <p class="lead">Per mantenerlo intatto e curarlo in modo adeguato, questo luogo - come tutti gli altri salvati dal FAI - necessita di un’attenta manutenzione, sia ordinaria che straordinaria, e periodici interventi di restauro. Inoltre, i costi di gestione che permettono l’apertura al pubblico sono significativi. Per questo abbiamo bisogno di un aiuto concreto da parte di chi, come noi, vuole mantenere vivi per sempre luoghi unici e speciali.</p>
+        </div>
+        <div class="col-md-1 order-md-1">
+          <img src="Immagini/villa-del-balbianello.jpg" alt="" style="border: 4px solid #e65125; border-radius: 20px;">
+        </div>
+      </div>
+    </div>
+
+
+
+      <!-- /END THE FEATURETTES -->
+
+
+    </div><!-- /.container -->
+
+
+
+
+    <hr class="featurette-divider">
+
+<!-- FOOTER -->
+<footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p style="color: #e3dac9">&copy; 2024 4di. &middot; <a href="#">Privacy</a> &middot; <a href="#">Termini</a></p>
+  </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
+
+
+

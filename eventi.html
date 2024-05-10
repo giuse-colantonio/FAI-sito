@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/color-modes.js"></script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>F.A.I.</title>
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+
+   
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta name="theme-color" content="#712cf9">
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  </head>
+<body>
+  <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg" style="background-color: #93c572; border-bottom: 2px solid #e65125;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+             <img src="./Immagini/Logo.png" alt="Logo" width="120px" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>       
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="storia.html">Storia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="eventi.html">Eventi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="beni.html">Beni</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="volontari.html">Unisciti a noi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contatti.html">Contattaci</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ </header>
+    
+  
+ 
+ 
+ 
+ 
+
+  <div class="container-xxl"> <center><h1 style="color: #e65125;">Gli Eventi</h1></center><hr>
+    <div class="row featurette">
+        <div class="col-md-12">            
+          <p class="lead">Il FAI organizza una serie di eventi regolari che hanno lo scopo di coinvolgere il pubblico nella tutela e valorizzazione del patrimonio culturale e naturale italiano. Tra questi, i più noti sono la Giornata FAI di Primavera e il censimento I Luoghi del Cuore.</p>
+        </div>
+    </div>
+  </div>   
+
+  
+
+
+
+
+
+ 
+ 
+ 
+ 
+  
+<hr class="featurette-divider">
+  
+<div class="container-fluid">
+     <center> <img src="Immagini/eventi1.jpg" style="border: 4px solid #e65125; border-radius: 20px;"></center>
+</div>
+
+<hr>
+
+<div class="container-xxl"><center><h3>Giornata FAI di Primavera</h3></center>
+   <div class="row featurette">
+    <div class="col-md-12">
+       <p class="lead">La Giornata FAI di Primavera è un evento annuale organizzato dal FAI, che ha lo scopo di sensibilizzare il pubblico sull’importanza della conservazione del patrimonio culturale e naturale italiano. Ecco una panoramica dettagliata della sua storia:
+       <br><br>
+        Origini e Sviluppo 
+        Le Giornate FAI di Primavera sono nate nel 1992, con l’intento di raccontare e valorizzare il patrimonio culturale italiano per educare la collettività a proteggerlo e a prendersene cura. L’evento ha preso vita grazie all’impegno delle Delegazioni del FAI, una struttura di volontariato che ha lavorato con entusiasmo e dedizione per aprire al pubblico luoghi dimenticati o difficilmente visitabili.
+        <br><br>
+        Crescita e Impatto 
+        Da un modesto inizio con 50 aperture in 30 città e 500 volontari nel 1992, l’evento è cresciuto esponenzialmente. Nella sua trentaduesima edizione nel 2024, le Giornate FAI di Primavera hanno visto l’apertura di 750 luoghi in 400 città, coinvolgendo migliaia di delegati e volontari del FAI. Questo evento è diventato uno dei più importanti e significativi per conoscere il patrimonio culturale e paesaggistico italiano.
+        <br><br>
+        Partecipazione e Collaborazione 
+        Le Giornate FAI di Primavera si fondano sulla partecipazione di centinaia di istituzioni, associazioni, enti pubblici e privati, che collaborano per conoscere e riconoscere il valore del patrimonio italiano. L’evento è un racconto corale e concreto che si basa sulla partecipazione attiva di tutti, perché il patrimonio appartiene a tutti.
+        <br><br>
+        Apprendisti Ciceroni 
+        Un aspetto unico delle Giornate FAI di Primavera è il ruolo degli Apprendisti Ciceroni, giovani studenti appositamente formati per raccontare le meraviglie del loro territorio. Questo programma educativo coinvolge le nuove generazioni nella tutela del patrimonio, fornendo loro le competenze per diventare guide informate e appassionate.
+        <br><br>
+        Obiettivi e Missione 
+        L’obiettivo delle Giornate FAI di Primavera è quello di offrire un’opportunità esclusiva di scoprire un’Italia meno nota, di luoghi solitamente inaccessibili, che raccontano la cultura millenaria, ricchissima e multiforme del Paese. La missione del FAI è “curare il patrimonio raccontandolo”, e questo evento rappresenta un momento cruciale per ampliare e arricchire il racconto del patrimonio italiano.
+        <br><br>
+        Risultati e Futuro 
+        Nel corso degli anni, le Giornate FAI di Primavera hanno aperto al pubblico 15.540 luoghi e hanno raccontato la loro storia a oltre 12 milioni di cittadini. L’evento continua a crescere e a ispirare, con l’obiettivo di aumentare la consapevolezza e l’impegno nella conservazione del patrimonio culturale e naturale italiano.
+         <br><br>
+        La Giornata FAI di Primavera è più di un semplice evento, è una celebrazione della cultura e della storia italiana, un invito a riscoprire e a proteggere le meraviglie del paese, e un esempio di come il volontariato e la partecipazione collettiva possano fare la differenza nella tutela del patrimonio culturale.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <hr class="featurette-divider">
+
+  <div class="container-fluid">
+    <img src="Immagini/eventi2.jpg" style="border: 4px solid #e65125; border-radius: 20px;">
+  </div>
+  
+  <hr>
+  
+  <div class="container-xxl"><center><h3>I Luoghi del Cuore</h3></center>
+    <div class="row featurette">
+     <div class="col-md-12">
+    <p class="lead">Il censimento 
+      I Luoghi del Cuore è un’iniziativa biennale del FAI - Fondo Ambiente Italiano, nata nel 2003 con l’obiettivo di coinvolgere i cittadini nella tutela dei luoghi italiani ricchi di storia, bellezza e significato. Ecco una panoramica dettagliata della sua storia:
+      <br><br>
+      Origini e Filosofia 
+      Il progetto è stato ideato per rispondere al desiderio di proteggere e valorizzare quei luoghi speciali che compongono la storia e l’identità di ogni individuo1. Giulia Maria Mozzoni Crespi, fondatrice del FAI, ha descritto questi luoghi come “piccole fiammelle” accese in tutto il territorio italiano, luoghi amati, vissuti, sognati e ricordati con nostalgia.
+      <br><br>
+      Sviluppo e Crescita
+       Da quando è stato lanciato, il censimento ha visto una crescita esponenziale sia in termini di partecipazione che di impatto. Nelle sue prime edizioni, ha coinvolto migliaia di cittadini e ha portato all’attenzione pubblica numerosi luoghi d’arte e natura2. Fino al 2022, sono stati raccolti oltre 11 milioni di voti e sono stati votati più di 39.000 luoghi.
+      <br><br>
+      Metodologia e Partecipazione 
+      Il censimento permette ai cittadini di votare per i loro luoghi del cuore da maggio a dicembre negli anni pari1. I luoghi che ricevono il maggior numero di voti possono beneficiare di contributi economici per progetti di restauro e conservazione1. Inoltre, ogni anno dispari, viene aperto un bando per i luoghi che hanno ottenuto almeno 2.500 voti, permettendo loro di candidare progetti per ricevere ulteriori sostegni.
+      <br><br>
+      Impatto e Risultati
+      Il censimento ha avuto un impatto significativo sulla sensibilizzazione dell’opinione pubblica riguardo l’importanza di proteggere e valorizzare i beni del territorio italiano. Fino ad oggi, il FAI ha sostenuto 162 progetti a favore di luoghi d’arte e di natura in 20 regioni italiane.
+      <br><br>
+      Futuro e Obiettivi 
+      Il censimento I Luoghi del Cuore continua a essere un’azione efficace per innescare un processo virtuoso di tutela e valorizzazione. Il FAI, insieme a Intesa Sanpaolo, si impegna a mantenere viva questa iniziativa, promuovendo la partecipazione attiva dei cittadini e la cura del patrimonio culturale e naturale del paese.
+      <br><br>
+      Il censimento I Luoghi del Cuore rappresenta quindi non solo un mezzo per salvaguardare i luoghi italiani, ma anche un modo per rafforzare il legame emotivo delle persone con il loro patrimonio culturale e naturale, assicurando che questi luoghi possano essere ricordati e conservati per le generazioni future.
+      <br><br>
+       a questi eventi principali, il FAI organizza anche mostre, gite culturali, laboratori per bambini, attività nella natura, e molto altro, per promuovere la cultura e la bellezza dell’Italia. Questi eventi sono pensati per educare il pubblico sull’importanza del patrimonio culturale e naturale e per stimolare un senso di responsabilità collettiva nella sua tutela.</p>
+  </div>
+ 
+
+
+
+
+
+
+
+<hr class="featurette-divider">
+
+  <!-- FOOTER -->
+  <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p style="color: #e3dac9">&copy; 2024 4di. &middot; <a href="#">Privacy</a> &middot; <a href="#">Termini</a></p>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
